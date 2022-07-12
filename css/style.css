@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*box-sizing - учитывается все кроме margin*/
+*, *::before, *::after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*Убираем линии обводки*/
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+/*Выравнивание шрифтов + запрет на увеличение*/
+html {height: 100%;}
+body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+/*Наследование шрифта у тегов форм*/
+input,button,textarea{font-family:inherit;}
+ul li{list-style: none;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+/* ------------------------------------------------- */
+
+
+body {
+	font-family: 'Be Vietnam Pro', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #969696;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	overflow: hidden;
+}
+
+
+.container {
+	max-width: 1230px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+@media (max-width:1230px) {
+	.container { 
+		max-width: 970px;
+	}
+}
+
+@media (max-width:992px) {
+	.container { 
+		max-width: 750px;
+	}
+}
+
+@media (max-width:767px) {
+	.container { 
+		max-width: none;
+	}
+}
+
+
+/* !!!!!!!!!! HEADER !!!!!!!!!! */
+
+.header {
+	padding: 50px 0;
+	background: url(/img/header/bg_header.png) 0 0/ cover no-repeat;
+	color: white;
+	line-height: 21px;
+}
+
+.header__top {
+	margin-bottom: 100px;
+}
+
+.top {}
+
+.top__row {
+	height: 45px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.top__logo {
+	font-size: 18px;
+	font-weight: 600;
+	color: white;
+	position: relative;
+	padding-left: 48px;
+	flex: 0 1 155px;
+}
+
+.top__logo::before {
+	content: "";
+	position: absolute;
+	top: -8px;
+	left: 0;
+	background: url(/img/icons/Logo.svg) no-repeat;
+	width: 38px;
+	height: 36px;
+}
+
+.top__menu {
+	display: inline-flex;
+	align-items: center;
+	flex-shrink: 1;
+}
+
+.top__menu p {
+	font-weight: 400;
+	font-size: 16px;
+	margin-right: 40px;
+}
+
+.top__menu p:last-child {margin-right: 0;}
+
+.top__login {
+}
+
+.top__btn {
+	margin-right: 10px;
+}
+
+.top__btn:last-child {
+	margin-right: 0;
+}
+
+.btn-blue {
+	color: white;
+	border-radius: 8px;
+	border: 1px solid white;
+	font-weight: 400;
+	padding: 12px 45px;
+}
+
+.btn-white {
+	color: #6A4BFF;
+	border-radius: 8px;
+	border: 1px solid white;
+	font-weight: 400;
+	background: white;
+	padding: 12px 45px;
+}
+
+
+
+.header__body {
+}
+
+.header__container {
+	max-width: 920px;
+	margin: 0 auto;
+}
+
+.header__text {
+	text-align: center;
+	margin-bottom: 90px;
+}
+
+.header__title {
+	font-size: 64px;
+	font-weight: 700;
+	line-height: 81px;
+	letter-spacing: 0.5%;
+	text-transform: capitalize;
+	letter-spacing: 0.5%;
+	margin-bottom: 50px;
+}
+
+.header__title span {
+	text-decoration: underline;
+	color: #37E2D5;
+	position: relative;
+
+}
+
+.header__title span::after {
+	content: "";
+	position: absolute;
+	right: -35px;
+	bottom: 20px;
+	width: 24px;
+	height: 16px;
+	background: url(/img/icons/business_icon.svg) no-repeat;
+}
+
+.header__subtitle {
+	max-width: 580px;
+	margin: 0 auto;
+	font-size: 17px;
+	line-height: 32px;
+	font-weight: 400;
+	letter-spacing: -0.41px;
+	margin-bottom: 60px;
+}
+
+.header__btn {
+	margin-right: 25px;
+}
+
+.header__btn:last-child {
+	margin-right: 0;
+}
+
+.header__imgs {}
+
+.header__dashboard {
+
+}
+
+.header__dashboard img {
+	width: 100%;
+	border-radius: 24px;
+}
+
+
+.header__icons {}
+
+.icons {}
+
+.icons__row {}
+
+.icons__img {}

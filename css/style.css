@@ -97,7 +97,7 @@ main {
 	padding: 50px 0;
 	color: white;
 	line-height: 21px;
-	background: url(/img/1header/bg_header.png) 0 0/cover no-repeat;
+	background: url(../img/1header/bg_header.png) 0 0/cover no-repeat;
 
 }
 
@@ -133,7 +133,7 @@ main {
 	position: absolute;
 	top: -8px;
 	left: 0;
-	background: url(/img/1header/header__logo.svg) no-repeat;
+	background: url(..../img/1header/header__logo.svg) no-repeat;
 	width: 38px;
 	height: 36px;
 }
@@ -218,7 +218,7 @@ main {
 	bottom: 20px;
 	width: 24px;
 	height: 16px;
-	background: url(/img/1header/business_icon.svg) no-repeat;
+	background: url(../img/1header/business_icon.svg) no-repeat;
 }
 
 .header__subtitle {
@@ -392,7 +392,7 @@ main {
 	line-height: 30px;
 	position: relative;
 	padding: 0 0 0 90px;
-	background: url(/img/3team/man4.png) 54px 50% no-repeat, url(/img/3team/man3.png) 36px 50% no-repeat, url(/img/3team/man2.png) 18px 50% no-repeat, url(/img/3team/man1.png) 0 50% no-repeat;
+	background: url(../img/3team/man4.png) 54px 50% no-repeat, url(../img/3team/man3.png) 36px 50% no-repeat, url(../img/3team/man2.png) 18px 50% no-repeat, url(../img/3team/man1.png) 0 50% no-repeat;
 }
 
 .team__btn {
@@ -550,7 +550,7 @@ main {
 	left: 0;
 	width: 20px;
 	height: 20px;
-	background: url(/img/4price/price_white-mark.svg) 50% 50% no-repeat, #152c5b;
+	background: url(../img/4price/price_white-mark.svg) 50% 50% no-repeat, #152c5b;
 	border-radius: 50%;
 }
 
@@ -567,7 +567,7 @@ main {
 	left: 0;
 	width: 20px;
 	height: 20px;
-	background: url(/img/4price/price_white-mark.svg) 50% 50% no-repeat, #c4c4c4;	
+	background: url(../img/4price/price_white-mark.svg) 50% 50% no-repeat, #c4c4c4;	
 	border-radius: 50%;
 }
 
@@ -677,7 +677,7 @@ main {
 	position: absolute;
 	top: -8px;
 	left: 0;
-	background: url(/img/6footer/footer__logo.png) no-repeat;
+	background: url(../img/6footer/footer__logo.png) no-repeat;
 	width: 38px;
 	height: 36px;
 }
